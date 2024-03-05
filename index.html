@@ -1,0 +1,15 @@
+<html><body><script type="text/javascript">
+function fact()
+{
+var n=parseInt(document.getElementById("num").value);
+var f=1;
+while(n>1)
+{
+f=f*n;
+n--;
+}
+document.write("fact="+f);}
+</script>
+Enter any number:<input id="num"><br><br>
+<input type="button" onclick="fact()" value="factorial">
+</body></html>
